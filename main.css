@@ -1,0 +1,47 @@
+.hidden {
+  display: none;
+}
+#main {
+  text-align: center;
+}
+.chart-section {
+  display: flex;
+  flex-direction: row;
+  height: 255px;
+  margin-bottom: 25px;
+}
+
+.y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 3px;
+}
+
+#input-label {
+  padding: 10px;
+  background: teal;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+#histogram {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+#histogram .chart {
+  height: 255px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3px;
+  align-items: flex-end;
+  border-bottom: 1px solid #dfd9d9;
+  border-left: 1px solid gray;
+}
+
+.bar {
+  margin-right: 2px;
+}
